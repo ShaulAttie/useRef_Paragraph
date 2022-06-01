@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 420px;
+    justify-content: center;
+    height: 500px;
+}
+
+.main label,
+span {
+    margin-left: 50px;
+}
+
+.main input {
+    width: 150px;
+    margin-right: 50px;
+}
+
+.main select {
+    width: 150px;
+    margin-right: 50px;
+    height: 1.3rem;
+}
+
+.subprob {
+    margin-left: 220px;
+}
+
+.main textarea {
+    width: 320px;
+    margin-left: 50px;
+}
+
+.main button {
+    width: 100px;
+    align-self: center;
+
+}
+
+.main div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main span.urgspan {
+    align-self: center;
+}
+
+.main div .when{
+    margin-right: 50px;
+}

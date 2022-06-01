@@ -11,4 +11,6 @@ html {
 body {
   margin: 0;
   background-color: #ffffff;
+  justify-content: center;
+  display: flex;
 }
